@@ -26,3 +26,6 @@
 .item3 {
     grid-area: item2;
 }
+body{
+    margin: 0;
+}
