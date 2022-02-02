@@ -13,10 +13,7 @@
     grid-template-rows: 31.3% 18.7% 19% 31%; 
     grid-template-areas: |"item1 item1 item1 item2";
 }
-.item1 {
-    grid-area: item1;
-    background: url("img_/item1.jpg") no-repeat;
-}
+
 
 .item2 {
     grid-area: item2;
