@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1366px;
+    height: 2283px;
+    width: 100%;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 33.5% 11.5% 21.5% 33.5%;
+    grid-template-rows: 31.3% 18.7% 19% 31%; 
+    grid-template-areas: |"item1 item1 item1 item2";
+}
+.item1 {
+    grid-area: item1;
+    background: url("img_/item1.jpg") no-repeat;
+}
+
+.item2 {
+    grid-area: item2;
+    background: url("img_/item2.jpg")
+}
+
+.item3 {
+    grid-area: item2;
+}
